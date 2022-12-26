@@ -2,6 +2,8 @@
 from __future__ import print_function
 import sys
 
+
+
 def safe_function(fct, *args):
     try:
         res = fct(*args)
